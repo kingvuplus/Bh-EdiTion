@@ -1,7 +1,7 @@
 from Plugins.Plugin import PluginDescriptor
 from twisted.internet.protocol import Protocol, Factory
 from twisted.internet import reactor
-from Screens.BhInterface import DeliteInterface
+from BlackHole.BhInterface import DeliteInterface
 import os
 import socket
 DeliteInt = None
