@@ -6,7 +6,7 @@ from Screens.Screen import Screen
 from Tools.Directories import fileExists
 from Components.ConfigList import ConfigListScreen
 from Components.config import getConfigListEntry, config, ConfigYesNo, ConfigSelection, NoSave
-from Screens.BhUtils import nab_Read_CCCinfoCfg
+from BlackHole.BhUtils import nab_Read_CCCinfoCfg
 from os import system, rename as os_rename, remove as os_remove
 from enigma import eEPGCache
 from boxbranding import getBoxType
